@@ -1,0 +1,5 @@
+backend/
+venv/
+static/images/uploads/
+static/images/uploads/videos/
+.DS_Store

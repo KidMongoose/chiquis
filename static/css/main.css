@@ -1,0 +1,328 @@
+
+*{
+  padding: 0;
+  margin: 0;  
+}
+
+html {
+  box-sizing: border-box;  
+}
+
+body {
+  background:  #cafce6; 
+}
+
+#container{
+  width: 100%;
+
+}
+
+nav {
+ width: 100%;
+ height: 75px;
+ background: #fafafa;   
+}
+
+nav ul {
+  width: 100%;
+  padding: 20px 0 35px 0;
+  margin: 0 auto;  
+  display: block;
+  text-align: center;
+}
+  
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 50px 10px 50px;; 
+}
+  
+nav ul li a {
+  color: #c7015d;
+  font: 400 1.7em roc-grotesk-condensed, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*
+Roc Grotesk ExtraBold
+
+font-family: roc-grotesk, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Roc Grotesk Regular
+
+font-family: roc-grotesk, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Roc Grotesk Compressed
+
+font-family: roc-grotesk-compressed, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Roc Grotesk Compressed ExtraBold
+
+font-family: roc-grotesk-compressed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Roc Grotesk Condensed
+
+font-family: roc-grotesk-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Roc Grotesk Condensed ExtraBold
+
+font-family: roc-grotesk-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Roc Grotesk Wide
+
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Roc Grotesk Wide ExtraBold
+
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Roc Grotesk ExtraWide
+
+font-family: roc-grotesk-extrawide, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Roc Grotesk ExtraWide ExtraBold
+
+font-family: roc-grotesk-extrawide, sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+
+header {
+  background-size: cover;
+  height: 750px;
+  background: url('/static/images/bkgd_.png') no-repeat center center fixed, linear-gradient(rgba(194, 0, 90, 0.8), rgba(202, 252, 230, 0.3)); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#top-container {
+  width: 25%; 
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+}
+
+#top-container ul {
+  padding-bottom: 35px;
+  margin: 0 auto;  
+  display: block;
+  text-align: center;
+}
+
+#top-container ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 25px; 
+}
+
+#top-container ul li a {
+  color: #ffd1e5;
+  font: 800 1.7em livermore-script-atf, sans-serif; 
+  cursor: pointer;
+  text-decoration: none;
+}
+  
+#top-container h1 {
+  color: #c7015d;
+  font: 400 10em livermore-script-atf-rough-2, sans-serif;
+  text-align: center;
+  margin-top: -50px;
+  margin-left: -45px;
+}
+
+#top-container  p {
+  font: 700 1.8em roc-grotesk-wide, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fafafa;
+}
+
+#top-container img {
+  width: 325px;
+  height:325px;
+  display: block;
+  margin: 0 auto;  
+}
+
+
+main {
+  width:  100%;
+  background: #cafce6;
+}
+
+#content-header, #documentation-header {
+  width:  100%;
+  background: #cafce6;
+  height: 125px;
+  border-bottom: 2px solid rgba(199, 1, 93, 0.3);
+}
+
+#content {
+  width:  100%;
+  background: #fafafa;
+}
+
+
+#content h1 {
+  color: #c7015d;
+  font: 400 5em livermore-script-atf-rough-2, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+
+
+.content-item {
+    width: 50%;
+    height: auto;
+    margin: 0 auto 5% auto;
+    padding: 4% 3%; 
+
+}
+
+
+.content-item h2 {
+  color: #c7015d;
+  font: 400 2em livermore-script-atf-rough-2, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.content-item p {
+  font: 700 2em roc-grotesk-wide, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content-item img {
+  width: 640px;
+  height: 420px;
+  border-radius: 25px;
+  margin: 0 auto !important;
+  display: block;
+  filter: drop-shadow(2px 3px 3px rgba(0,0,0,0.3));
+}
+
+.content-item video {
+    width: 640px;
+    height: 420px;
+    border-radius: 25px;
+    background: #000;
+    margin: 0 auto !important;
+    display: block;
+    filter: drop-shadow(2px 3px 3px rgba(0,0,0,0.3));
+  }
+
+
+
+#documentation {
+  width:  100%;
+  background: #fafafa;
+}
+
+#documentation-header h1 {
+  color: #c7015d;
+  font: 400 5em livermore-script-atf-rough-2, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+
+
+#documentation article  {
+  width: 65%;
+  margin: 100px auto 0 auto;
+}
+
+#documentation article:last-child  {
+  padding-bottom: 100px;
+}
+
+#documentation article .api-flex {
+  background: rgba(199, 1, 93, 0.1);
+  border-radius: 25px;
+  height: 75px;
+  margin-bottom: 100px;
+}
+
+#documentation article .api-flex:nth-child(even) {
+  margin-bottom: 25px;
+}
+
+
+#documentation article .api-flex code {
+  margin: 30px 0 0 75px;
+  display: inline-block;
+  width: auto;
+  font-size: 1.4em;
+}
+
+#documentation article a {
+  padding: -10px 0 0 25px !important;
+  color: #c7015d !important;
+
+}
+
+
+#documentation h2 {
+  color: #c7015d;
+  font: 400 2em roc-grotesk-condensed, sans-serif;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#documentation p {
+  font: 500 1.2em roc-grotesk, sans-serif;
+  color: #1e1e1e;
+  text-align: left;
+  margin-bottom: 15px;
+
+}
+
+
+
+
+footer {
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+  padding: 35px 0 25px 0;
+}
+
+footer p {
+  font: 400 1.2em roc-grotesk-condensed, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+footer div {
+  font-size: 3em !important;  
+  margin: 0 auto;
+  width: 38px;
+}
+
+
